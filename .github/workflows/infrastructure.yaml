@@ -25,4 +25,4 @@ jobs:
 
             - name: Deploy Bicep file
               run: |
-                az deployment sub create --location australiaeast --template-file Infrastructure\main.bicep --parameters environment=dev location=australiaeast
+                az deployment sub create --location australiaeast --template-file .\ACA_Demo\Infrastructure\main.bicep --parameters environment=dev location=australiaeast
